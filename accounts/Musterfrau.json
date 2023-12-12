@@ -1,0 +1,32 @@
+[
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.0,
+      "outgoingInterest": 0.0,
+      "date": "12-12-2023",
+      "amount": 200.0,
+      "description": ""
+    }
+  },
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "sender": "Mustermann",
+      "recipient": "Musterfrau",
+      "date": "12-12-2023",
+      "amount": 350.0,
+      "description": ""
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Musterfrau",
+      "recipient": "Mustermann",
+      "date": "12-12-2023",
+      "amount": 200.0,
+      "description": ""
+    }
+  }
+]
